@@ -1,0 +1,56 @@
+.rowFlex {
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: nowrap; 
+	width: 100%;
+    background-color: rgba(242, 250, 250, 0.3);
+}
+
+.fondo1{
+    background-color: aqua;
+}
+
+.fondo2{
+    background-color: blue;
+}
+
+.navbar{
+    justify-content:space-evenly;
+}
+
+.navbar li{
+    display: flex; 
+	flex-direction: row; 
+    color: white;
+    text-align: center;
+}
+
+.home{
+    width: 100%;
+    height: 40px;
+    background-color: lightpink;
+}
+
+.sobreMi{
+    width: 100%;
+    height: 40px;
+    background-color: lightgreen;
+}
+
+.misTrabajos{
+    width: 100%;
+    height: 40px;
+    background-color: lightsalmon;
+}
+
+.contacto{
+    width: 100%;
+    height: 40px;
+    background-color: lightslategray;
+}
+
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color:olive
+}
