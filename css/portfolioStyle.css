@@ -29,8 +29,10 @@
 
 .home{
     width: 100%;
-    height: 40px;
+    height: auto;
     background-color: lightpink;
+    padding-top: 140px;
+    padding-bottom: 25px;
 }
 
 .sobreMi{
@@ -48,7 +50,7 @@
 .contacto{
     width: 100%;
     height: auto;
-    /* background-color: lightslategray; */
+    background-color: lightslategray;
 }
 
 
@@ -195,6 +197,10 @@
 
 
 /* Inicio Sección 4 */
+.section-4{
+    background-color: lightgray;
+}
+
 .section-4 .container {
     padding-top: 6vmin;
   }
