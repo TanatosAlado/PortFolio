@@ -6,6 +6,12 @@
   overflow-x: hidden;
 }
 
+.icon{
+  font-size: 30px;
+  color: grey;
+  margin-top: 5px;
+}
+
 .rowFlex {
 	display: flex; 
 	flex-direction: row; 
@@ -15,17 +21,17 @@
 }
 
 .fondo1{
-    background: rgba(212, 239, 223);
+    /* background: rgba(212, 239, 223); */
     text-align: center;
-    /* background-color: lightgrey; */
+    background-color: lightgrey;
     /* background-color: lightslategray; */
 }
 
 .fondo2{
     /* background-color: blue; */
-    /* background-color: lightgrey; */
+    background-color: lightgrey;
     /* background-color: lightslategray; */
-    background: rgba(212, 239, 223);
+    /* background: rgba(212, 239, 223); */
 }
 
 .navbar{
@@ -190,11 +196,15 @@
     z-index: 1;
   }
   
-  .section-2 .row .col-md-5 .col-md-7 .panel h2 {
+  /* .section-2 .row .col-md-5 .col-md-7 .panel h2 {
     font-weight: bold;
     padding: 0.4em 0;
     color: whitesmoke;
     font-size: 1.4em;
+  } */
+
+  .section-2 h1{
+    color: #1ABC9C;
   }
   
   .section-2 .row .col-md-5 .col-md-7 .panel h3 {

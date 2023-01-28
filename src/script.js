@@ -1,4 +1,5 @@
 let idioma = "espanol"
+let portada = "<!-- CA -->"
 
 function cambioIdioma(){
     if(idioma == "espanol"){
