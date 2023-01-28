@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap");
 
+.body{
+  background-color: lightslategray;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .rowFlex {
 	display: flex; 
 	flex-direction: row; 
@@ -9,11 +15,17 @@
 }
 
 .fondo1{
-    background-color: aqua;
+    background: rgba(212, 239, 223);
+    text-align: center;
+    /* background-color: lightgrey; */
+    /* background-color: lightslategray; */
 }
 
 .fondo2{
-    background-color: blue;
+    /* background-color: blue; */
+    /* background-color: lightgrey; */
+    /* background-color: lightslategray; */
+    background: rgba(212, 239, 223);
 }
 
 .navbar{
@@ -30,15 +42,28 @@
 .home{
     width: 100%;
     height: auto;
-    background-color: lightpink;
-    padding-top: 140px;
-    padding-bottom: 25px;
+    /* background-color: lightpink; */
+    /* background-color: lightgrey; */
+    background-color: lightslategray;
+    
+    padding-top: 120px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+
+.home h1{
+  padding-bottom: 25px;
 }
 
 .sobreMi{
     width: 100%;
     height: auto;
     /* background-color: lightgreen; */
+}
+
+.sobreMi h3{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .misTrabajos{
@@ -55,84 +80,84 @@
 
 
 
-    .footer {
-        background: rgba(212, 239, 223);
-        overflow-x: hidden;
-        padding: 7vmin 22vmin;
-        padding-bottom: 10px;
-      }
-      
-      .footer .sp {
-        color: #ff512f;
-      }
-      
-      .footer input {
-        border: none !important;
-      }
-      
-      .footer input::placeholder {
-        color: white !important;
-      }
-      
-      .footer .input-group .input-group-text {
-        background: var(--bggradient);
-        border: none;
-      }
-      
-      .footer .column i {
-        color: #1ABC9C;
-        margin: 0.4rem;
-        font-size: 2em;
-        transition: color 0.3s linear;
-      }
-      .footer .column i:hover {
-        color: #196F3D;
-      }
-      
-      .footer a.gmail {
-        color: #1ABC9C;
-        
-      }
-      
-      .footer a.gmail:hover {
-        color: #196F3D;
-        text-decoration: none;
-      }
-      
-      .footer .column i + i {
-        padding: 0 0.5em;
-      }
-      
-      .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        height: 3em;
-        background: rgba(0, 0, 0, 0.5);
-        z-index: 9999;
-        transition: all 1.5s ease;
-      }
-      #myBtn {
-        display: none;
-        position: fixed;
-        height: 40px;
-        width: 40px;
-        z-index: 100;
-        bottom: 55px;
-        right: 30px;
-        font-size: 20px;
-        border: none;
-        outline: none;
-        background-color: grey;
-        color: #ffff;
-        cursor: pointer;
-        padding: 0px;
-        border-radius: 50%;
-      }
-      
-      #myBtn:hover {
-        background-color: #404040;
-      }
+.footer {
+    background: rgba(212, 239, 223);
+    overflow-x: hidden;
+    padding: 7vmin 22vmin;
+    padding-bottom: 10px;
+  }
+  
+  .footer .sp {
+    color: #ff512f;
+  }
+  
+  .footer input {
+    border: none !important;
+  }
+  
+  .footer input::placeholder {
+    color: white !important;
+  }
+  
+  .footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+  }
+  
+  .footer .column i {
+    color: #1ABC9C;
+    margin: 0.4rem;
+    font-size: 2em;
+    transition: color 0.3s linear;
+  }
+  .footer .column i:hover {
+    color: #196F3D;
+  }
+  
+  .footer a.gmail {
+    color: #1ABC9C;
+    
+  }
+  
+  .footer a.gmail:hover {
+    color: #196F3D;
+    text-decoration: none;
+  }
+  
+  .footer .column i + i {
+    padding: 0 0.5em;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3em;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    transition: all 1.5s ease;
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    z-index: 100;
+    bottom: 55px;
+    right: 30px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: grey;
+    color: #ffff;
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 50%;
+  }
+  
+  #myBtn:hover {
+    background-color: #404040;
+  }
 
 
 
@@ -198,7 +223,8 @@
 
 /* Inicio Sección 4 */
 .section-4{
-    background-color: lightgray;
+    /* background-color: lightgray; */
+    background-color: lightslategray;
 }
 
 .section-4 .container {
@@ -239,7 +265,6 @@
   
   .section-4 .card-body > a {
     font-size: 1.3em;
-   
   }
   
 /* Fin Sección 4 */
@@ -349,10 +374,18 @@
   
 /* Fin Sección 5 */
 
-.izquierda{
+/* .izquierda{
     background-color: red;
 }
 
 .derecha{
     background-color: black;
+} */
+
+.miBorde{
+  box-shadow: 0 10px 30px rgb(0 0 0 / 50%);
+}
+
+.idioma{
+  border-radius: 10px;
 }

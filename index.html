@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="./css/portfolioStyle.css">
     <title>PortFolio - Home</title>
 </head>
-<body>
+<body class="body">
     <header>
-        <div class="container">
+        <div class="">
             <div class="row">
                 <div class="col-2 col-sm-2 col-md-2 col-lg-2 fondo1">
                     Poner Icono aca
@@ -25,7 +25,7 @@
                     <ul class="navbar">
                         <li>
             
-                            <a class="nav-link" href="#main-project">SOBRE MI</a>
+                            <a class="nav-link" href="#main-about">ACERCA DE MI</a>
                         </li>
                         <li>
                             <a class="nav-link" href="#main-project">TRABAJOS</a>
@@ -33,7 +33,9 @@
                         <li>
                             <a class="nav-link" href="#main-contact">CONTACTO</a>
                         </li>
-                        <li><div class="idioma" id="idioma">Version Inglés</div></li>
+                        <li><div><button onclick="cambioIdioma()" class="idioma" id="idioma">
+                          English Version
+                        </button> </div></li>
                     </ul>
                 </div>
             </div>
@@ -50,7 +52,8 @@
     </div>
     <div class="sobreMi container">
         <section id="main-about" class="section-2">
-            <div class="container text-center">
+            <div class="container text-center miBorde">
+              <h2 class="mb-5 pt-4">Acerca de mi</h2>
               <div class="row">
                 <div class="col-md-5 col-12 izquierda">
                   <div class="pray">
@@ -59,8 +62,7 @@
                 </div>
                 <div class="col-md-7 col-12 derecha">
                   <div class="panel text-left">
-                    <h2>Sobre mi</h2>
-                    <h3>Cristian Eduardo Alessandría</h3>
+                    <h3 class="mb-3">Cristian Eduardo Alessandría</h3>
                     <h4>Analista y Full Stack Developer.</h4>
                     <p>
                         Soy un apasionado del aprendizaje continuo y disfruto aplicar nuevas tecnologías para llegar a la resolución de un problema.<br />
@@ -174,7 +176,7 @@
             </div>
           </section>
     </div>
-    <div class="footer container">
+    <div class="footer containe">
         <div class="container-fluid p-0">
             <div class="row text-left">
               <div class="col-md-9">
@@ -204,5 +206,7 @@
             </p>
           </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./src/script.js"></script>
 </body>
 </html>
