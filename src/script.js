@@ -1,4 +1,5 @@
 let elIdioma = "";
+let idioma = "espanol";
 
 function cambioIdioma(){
     if(idioma == "espanol"){
