@@ -17,20 +17,21 @@
 	flex-direction: row; 
 	flex-wrap: nowrap; 
 	width: 100%;
-    background-color: rgba(242, 250, 250, 0.3);
+    /* background-color: rgba(242, 250, 250, 0.3); */
+    background-color: lightgrey;
 }
 
 .fondo1{
     /* background: rgba(212, 239, 223); */
     text-align: center;
-    background-color: lightgrey;
-    /* background-color: lightslategray; */
+    /* background-color: lightgrey; */
+    background-color: lightslategray;
 }
 
 .fondo2{
     /* background-color: blue; */
-    background-color: lightgrey;
-    /* background-color: lightslategray; */
+    /* background-color: lightgrey; */
+    background-color: lightslategray;
     /* background: rgba(212, 239, 223); */
 }
 
@@ -40,9 +41,13 @@
 
 .navbar li{
     display: flex; 
-	flex-direction: row; 
+	  flex-direction: row; 
     color: white;
     text-align: center;
+}
+
+.navbar a{
+  color: white;
 }
 
 .home{
@@ -60,6 +65,7 @@
 
 .home h1{
   padding-bottom: 25px;
+  color: white;
 }
 
 .sobreMi{
@@ -174,8 +180,10 @@
   }
   
   .section-2 .row .col-md-5 .pray img {
-    width: 54%;
-    padding: 7vmin 0vmin;
+    /* width: 54%; */
+    /* padding: 7vmin 0vmin; */
+    width: 75%;
+    height: 80%;
     border-radius: 0.2em;
   }
   
@@ -195,13 +203,6 @@
     font-family: var(--Rubik);
     z-index: 1;
   }
-  
-  /* .section-2 .row .col-md-5 .col-md-7 .panel h2 {
-    font-weight: bold;
-    padding: 0.4em 0;
-    color: whitesmoke;
-    font-size: 1.4em;
-  } */
 
   .section-2 h1{
     color: #1ABC9C;
@@ -275,6 +276,11 @@
   
   .section-4 .card-body > a {
     font-size: 1.3em;
+  }
+
+  .section-4 .card-img-top{
+    width: 100%;
+    height: 170px;
   }
   
 /* Fin Sección 4 */
@@ -399,3 +405,38 @@
 .idioma{
   border-radius: 10px;
 }
+
+
+
+
+.rotate-in-center {
+	-webkit-animation: rotate-in-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: rotate-in-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+ @-webkit-keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
+}
+

@@ -19,9 +19,6 @@
     <header>
         <div class="">
             <div class="row">
-                <div class="col-2 col-sm-2 col-md-2 col-lg-2 fondo1 logo">
-                  <img src="./assets/icon.png" alt="icono">
-                </div>
                 <div class="col-10 col-sm-10 col-md-10 col-lg-10 fondo2">
                     <ul class="navbar">
                         <li>
@@ -42,7 +39,7 @@
         </div>
     </header> 
     <div class="home container">
-        <h1 id="home1">Bienvenido a mi PortFolio</h1>
+        <h1 class="rotate-in-center" id="home1">Bienvenido a mi PortFolio</h1>
         <h5 id="home2">
             Soy desarrollador Full Stack, HTML, CSS, JavaScript y Nodejs son mis herramientas preferidas.
         </h5>
@@ -84,7 +81,7 @@
     <div class="misTrabajos container">
         <section id="main-project" class="section-4">
             <div class="container text-center">
-              <h1 id="proyectos1">Proyectos finalizados</h1>
+              <h1 id="proyectos1">Proyectos realizados</h1>
             </div>
             <div class="cards text-center">
               <div class="d-flex flex-md-row flex-wrap justify-content-center">
@@ -99,11 +96,10 @@
                   />
                   <div class="card-body">
                     <h4 class="card-title">Bendita Barrica</h4>
-                    <p class="card-text">BLA BLA BLA using technologies like
-                      ReactJs, CSS3, BOOTSTRAP v5.1 and JavaScript</p>
+                    <p id="proyectos2" class="card-text">Tienda de Vinos. Utilizando tecnologías como ReactJs, CSS, BOOTSTRAP y JavaScript</p>
                   </div>
                   <div class="card-body">
-                    <a href="https://tanatosalado.github.io/BenditaBarrica/" class="card-link"target="_blank">Link a Proyecto</a>
+                    <a href="https://tanatosalado.github.io/BenditaBarrica/" id="proyectos3" class="card-link"target="_blank">Link a Proyecto</a>
                   </div>
                 </div>
                 <div
@@ -117,33 +113,29 @@
                   />
                   <div class="card-body">
                     <h4 class="card-title">Nube Eventos</h4>
-                    <p class="card-text">BLA BLA BLA using technologies like
-                      HTML5, CSS3, BOOTSTRAP v5.1 and JavaScript</p>
+                    <p id="proyectos4" class="card-text">Sitio de eventos. Utilizando tecnologías como HTML5, CSS3, BOOTSTRAP v5.1 and JavaScript</p>
                   </div>
                   <div class="card-body">
-                    <a href="https://andreshosch.github.io/nubeEvents/index.html" class="card-link"target="_blank">Link a Proyecto</a>
+                    <a href="https://andreshosch.github.io/nubeEvents/index.html" id="proyectos5" class="card-link"target="_blank">Link a Proyecto</a>
                   </div>
                 </div>
                 <div
-                class="card mr-2 d-inline-block shadow-lg"
-                style="width: 18rem"
-              >
-                <div class="card-body">
-                  <h4 class="card-title">My Portfolio</h4>
-                  <p class="card-text">
-                    Created my personal/portfolio website using technologies like
-                    HTML5, CSS3, BOOTSTRAP v4.3 and JavaScript.
-                  </p>
+                  class="card mr-2 d-inline-block shadow-lg"
+                  style="width: 18rem"
+                >
+                  <img
+                    src="assets/memoTest.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Memo Test</h4>
+                    <p id="proyectos6" class="card-text">Juego de memoria desarrollado usando tecnologías como HTML, CSS, BOOTSTRAP y JavaScript</p>
+                  </div>
+                  <div class="card-body">
+                    <a href="https://tanatosalado.github.io/MemoTest/" id="proyectos7" class="card-link"target="_blank">Link a Proyecto</a>
+                  </div>
                 </div>
-                <div class="card-body">
-                  <a
-                    href="https://github.com/andreshosch/myPortfolio"
-                    target="_blank"
-                    class="card-link text "
-                    >Project link</a
-                  >
-                </div>
-              </div>
               </div>
             </div>
           </section>
@@ -152,24 +144,24 @@
         <section id="main-contact" class="section-5">
             <div class="contact">
               <div class="form-container">
-                <h2>Contactame</h2>
+                <h2 id="contacto1">Contactame</h2>
                 <form 
                   method="POST"
                   action="https://formspree.io/f/mpzeqwqn"
                 >
                   <div class="input-field">
                     <input type="text" name="name" required="" />
-                    <label>Nombre</label>
+                    <label id="contacto2">Nombre</label>
                   </div>
                   <div class="input-field">
                     <input type="email" name="email" required="" />
-                    <label>Email</label>
+                    <label id="contacto3">Email</label>
                   </div>
                   <div class="input-field">
                     <textarea name="message" rows="5" required=""></textarea>
-                    <label>Mensaje</label>
+                    <label id="contacto4">Mensaje</label>
                   </div>
-                  <input type="submit" name="" value="Enviar Mensaje" class="btn" />
+                  <input id="contacto5" type="submit" value="Enviar Mensaje" class="btn" />
                 </form>
               </div>
             </div>
@@ -179,13 +171,13 @@
         <div class="container-fluid p-0">
             <div class="row text-left">
               <div class="col-md-9">
-                <h4 class="text-muted">Gracias por tu visita</h4>
-                <p class="text-muted">Para cualquier sugerencia puedes enviarme un correo</p>
+                <h4 id="footer1" class="text-muted">Gracias por tu visita</h4>
+                <p id="footer2" class="text-muted">Para cualquier sugerencia puedes enviarme un correo</p>
               <a href="mailto:cristian_alessandria@hotmail.com" class="gmail">cristian_alessandria@hotmail.com</a>
               </div>
               <div class="col-md-3 follow">
-                <h4 class="text-muted">Sigueme</h4>
-                <p class="text-muted">Let us be social</p>
+                <h4 id="footer3" class="text-muted">Sigueme</h4>
+                <p id="footer4" class="text-muted">Let us be social</p>
                 <div class="column text-light">
                   <a href="https://github.com/TanatosAlado" target="_blank"
                     ><i class="fab fa-github"></i
@@ -200,7 +192,7 @@
             </div>
           </div>
           <div class="pt-5 text-center">
-            <p class="pt-2 text-muted">
+            <p id="footer5" class="pt-2 text-muted">
               Copyright ©2023 Todos los derechos reservados
             </p>
           </div>
