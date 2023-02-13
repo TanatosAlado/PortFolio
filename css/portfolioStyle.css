@@ -42,12 +42,15 @@
 .navbar li{
     display: flex; 
 	  flex-direction: row; 
-    color: white;
+    /* color: white; */
+    color: #1ABC9C;
+    font-size: 1.2rem;
     text-align: center;
 }
 
 .navbar a{
-  color: white;
+  color: #1ABC9C;
+  /* color: white; */
 }
 
 .home{
@@ -65,7 +68,8 @@
 
 .home h1{
   padding-bottom: 25px;
-  color: white;
+  color: #1ABC9C;
+  /* color: white; */
 }
 
 .sobreMi{
