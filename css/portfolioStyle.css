@@ -17,22 +17,16 @@
 	flex-direction: row; 
 	flex-wrap: nowrap; 
 	width: 100%;
-    /* background-color: rgba(242, 250, 250, 0.3); */
-    background-color: lightgrey;
+  background-color: lightgrey;
 }
 
 .fondo1{
-    /* background: rgba(212, 239, 223); */
     text-align: center;
-    /* background-color: lightgrey; */
     background-color: lightslategray;
 }
 
 .fondo2{
-    /* background-color: blue; */
-    /* background-color: lightgrey; */
     background-color: lightslategray;
-    /* background: rgba(212, 239, 223); */
 }
 
 .navbar{
@@ -56,8 +50,6 @@
 .home{
     width: 100%;
     height: auto;
-    /* background-color: lightpink; */
-    /* background-color: lightgrey; */
     background-color: lightslategray;
     
     padding-top: 120px;
